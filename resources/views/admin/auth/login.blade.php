@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://pratikborsadiya.in/vali-admin/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../backend/css/main.css" />
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <title>Login - {{ config('app.name') }}</title>
 </head>
@@ -14,7 +14,7 @@
 </section>
 <section class="login-content">
     <div class="logo">
-        <h1>{{ config('app.name') }}</h1>
+        <h2>CONSTRUCTION BILLS MANAGEMENT</h2>
     </div>
     <div class="login-box">
         <form class="login-form" action="{{ route('admin.login.post') }}" method="POST" role="form">
